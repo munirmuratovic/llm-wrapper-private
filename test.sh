@@ -1,0 +1,1 @@
+curl -X POST -H "Content-Type: application/json" -d '{"prompt": "Once upon a time"}' http://localhost:5566/chat
