@@ -24,7 +24,7 @@ bnb_config = transformers.BitsAndBytesConfig(
 )
 
 # begin initializing HF items, need auth token for these
-hf_auth = "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"
+hf_auth = "hf_token_goes_here"
 model_config = transformers.AutoConfig.from_pretrained(model_id, use_auth_token=hf_auth)
 
 # model = transformers.AutoModelForCausalLM.from_pretrained(
